@@ -1,4 +1,4 @@
-# useful_scripts
+# Useful scripts
 
 Scripts for day-to-day use
 
