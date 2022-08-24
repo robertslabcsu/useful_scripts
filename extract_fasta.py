@@ -1,11 +1,17 @@
 from Bio import SeqIO                                                               
 import argparse
 
+"""
+Simple script to extract fasta files from a multifasta big file based on a list.
+Usage:
+    python3 extract.py -id [List of IDs] -f [Big fasta] -out [output]
+"""
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-id",dest="id",help="List of IDs")
 parser.add_argument("-f",dest="file",help="Big fasta")
-parser.add_argument("-out",dest="out",help="Output",default="output.txt")
+parser.add_argument("-out",dest="out",help="Output",default="output.fa")
 args = parser.parse_args()
 
 def extract(ids,fasta,filtered):
