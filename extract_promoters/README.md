@@ -23,4 +23,4 @@ These files need to be added to the sbatch scripts as vars (var1,var2,var3). Ins
 1. [samtools](http://samtools.sourceforge.net/)
 2. [bedtools](http://bedtools.readthedocs.io/en/latest/)
 
-Email:rimgubaev@gmail.com
+Email: rimgubaev@gmail.com or diego.ernesto.gutierrez@colostate.edu
